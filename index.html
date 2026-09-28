@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fantasy Flowers FF.SRL - Tășnad</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#faf7f4;
+    color:#333;
+}
+
+header{
+    position:relative;
+    height:500px;
+    overflow:hidden;
+}
+
+header img.cover{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.35);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.logo{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid white;
+    background:white;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.overlay h1{
+    font-size:3rem;
+}
+
+.overlay p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+h2{
+    color:#556b2f;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card ul{
+    padding-left:20px;
+}
+
+.card li{
+    margin-bottom:8px;
+}
+
+.contact{
+    text-align:center;
+    background:#e9efe3;
+    padding:50px 20px;
+}
+
+.contact a{
+    color:#2d4b1f;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer{
+    background:#2d4b1f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="cover.jpg" alt="Fantasy Flowers Cover" class="cover">
+
+    <div class="overlay">
+        <img src="logo.png" alt="Fantasy Flowers Logo" class="logo">
+        <h1>Fantasy Flowers FF.SRL</h1>
+        <p>Din grădina noastră, pentru inima ta</p>
+        <p>Tășnad, România</p>
+    </div>
+</header>
+
+<section>
+    <h2>Produsele Noastre</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>🌸 Flori</h3>
+            <ul>
+                <li>Trandafiri</li>
+                <li>Lalele</li>
+                <li>Frezii</li>
+                <li>Crizanteme</li>
+                <li>Gerbera</li>
+                <li>Lisianthus</li>
+                <li>Alstroemeria</li>
+                <li>Bujori</li>
+                <li>Hortensii</li>
+                <li>Orhidee</li>
+                <li>Crini</li>
+                <li>Floarea-soarelui</li>
+                <li>Flori de sezon</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>💐 Aranjamente</h3>
+            <ul>
+                <li>Buchete simple</li>
+                <li>Buchete premium</li>
+                <li>Buchete de mireasă</li>
+                <li>Buchete pentru nașă</li>
+                <li>Aranjamente în cutie</li>
+                <li>Aranjamente în coș</li>
+                <li>Aranjamente pentru masă</li>
+                <li>Aranjamente funerare</li>
+                <li>Coroane funerare</li>
+                <li>Aranjamente pentru evenimente</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>🪴 Plante</h3>
+            <ul>
+                <li>Orhidee</li>
+                <li>Plante verzi</li>
+                <li>Suculente</li>
+                <li>Cactuși</li>
+                <li>Plante de sezon</li>
+                <li>Plante decorative în ghiveci</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>🎁 Produse Complementare</h3>
+            <ul>
+                <li>Cutii pentru flori</li>
+                <li>Vaze</li>
+                <li>Ghivece</li>
+                <li>Coșuri decorative</li>
+                <li>Plușuri</li>
+                <li>Ciocolată</li>
+                <li>Lumânări parfumate</li>
+                <li>Vin / șampanie</li>
+                <li>Felicitări</li>
+                <li>Baloane</li>
+                <li>Cadouri personalizate</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>🎀 Materiale pentru Florărie</h3>
+            <ul>
+                <li>Hârtie de ambalat</li>
+                <li>Celofan</li>
+                <li>Panglici</li>
+                <li>Fundițe</li>
+                <li>Sfoară decorativă</li>
+                <li>Burete floral</li>
+                <li>Cutii</li>
+                <li>Folie</li>
+                <li>Accesorii decorative</li>
+                <li>Etichete și felicitări</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+    <p><strong>Fantasy Flowers FF.SRL</strong></p>
+    <p>Tășnad, România</p>
+    <br>
+    <p>📞 Telefon: <a href="tel:0773314641">0773314641</a></p>
+    <p>📧 E-mail: <a href="mailto:fantasyflowers08@gmail.com">fantasyflowers08@gmail.com</a></p>
+</section>
+
+<footer>
+    © 2025 Fantasy Flowers FF.SRL - Toate drepturile rezervate.
+</footer>
+
+</body>
+</html>
